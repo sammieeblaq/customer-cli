@@ -1,0 +1,20 @@
+{
+  "name": "customer-cli",
+  "version": "1.0.0",
+  "description": "Customer Management CLI",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Airehrour",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "inquirer": "^6.3.1",
+    "mongoose": "^5.4.17"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
